@@ -1,0 +1,83 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_3 -L xlconcat_v2_1_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Lab4_tb_behav xil_defaultlib.Lab4_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ALUSrcMux [alusrcmux_default]
+Compiling architecture design_1_alusrcmux_0_0_arch of entity xil_defaultlib.design_1_ALUSrcMux_0_0 [design_1_alusrcmux_0_0_default]
+Compiling module xlconcat_v2_1_5.xlconcat_v2_1_5_xlconcat(IN0_WID...
+Compiling module xil_defaultlib.design_1_xlconcat_0_0
+Compiling architecture behavioral of entity xil_defaultlib.BranchMux [branchmux_default]
+Compiling architecture design_1_branchmux_0_0_arch of entity xil_defaultlib.design_1_BranchMux_0_0 [design_1_branchmux_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.DataMem [datamem_default]
+Compiling architecture design_1_datamem_0_0_arch of entity xil_defaultlib.design_1_DataMem_0_0 [design_1_datamem_0_0_default]
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_6
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_5
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_0
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_7
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_3
+Compiling architecture behavioral of entity xil_defaultlib.RegDstMux [regdstmux_default]
+Compiling architecture design_1_regdstmux_0_0_arch of entity xil_defaultlib.design_1_RegDstMux_0_0 [design_1_regdstmux_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegFile [regfile_default]
+Compiling architecture design_1_regfile_0_0_arch of entity xil_defaultlib.design_1_RegFile_0_0 [design_1_regfile_0_0_default]
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_1
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_2
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_4
+Compiling architecture behavioral of entity xil_defaultlib.WriteBackMux [writebackmux_default]
+Compiling architecture design_1_writebackmux_0_0_arch of entity xil_defaultlib.design_1_WriteBackMux_0_0 [design_1_writebackmux_0_0_defaul...]
+Compiling architecture behavioral of entity xil_defaultlib.alu [alu_default]
+Compiling architecture design_1_alu_0_0_arch of entity xil_defaultlib.design_1_alu_0_0 [design_1_alu_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture design_1_alu_control_0_0_arch of entity xil_defaultlib.design_1_alu_control_0_0 [design_1_alu_control_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.branch_adder [branch_adder_default]
+Compiling architecture design_1_branch_adder_0_0_arch of entity xil_defaultlib.design_1_branch_adder_0_0 [design_1_branch_adder_0_0_defaul...]
+Compiling architecture behavioral of entity xil_defaultlib.branch_logic [branch_logic_default]
+Compiling architecture design_1_branch_logic_0_0_arch of entity xil_defaultlib.design_1_branch_logic_0_0 [design_1_branch_logic_0_0_defaul...]
+Compiling architecture behavioral of entity xil_defaultlib.control [control_default]
+Compiling architecture design_1_control_0_0_arch of entity xil_defaultlib.design_1_control_0_0 [design_1_control_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.instmem [instmem_default]
+Compiling architecture design_1_instmem_0_0_arch of entity xil_defaultlib.design_1_instmem_0_0 [design_1_instmem_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.jmpSrcMux [jmpsrcmux_default]
+Compiling architecture design_1_jmpsrcmux_0_0_arch of entity xil_defaultlib.design_1_jmpSrcMux_0_0 [design_1_jmpsrcmux_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.jumpLogic [jumplogic_default]
+Compiling architecture design_1_jumplogic_0_0_arch of entity xil_defaultlib.design_1_jumpLogic_0_0 [design_1_jumplogic_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.jumpOutMux [jumpoutmux_default]
+Compiling architecture design_1_jumpoutmux_0_0_arch of entity xil_defaultlib.design_1_jumpOutMux_0_0 [design_1_jumpoutmux_0_0_default]
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_9
+Compiling architecture behavioral of entity xil_defaultlib.pc [pc_default]
+Compiling architecture design_1_pc_0_0_arch of entity xil_defaultlib.design_1_pc_0_0 [design_1_pc_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.pcadder [pcadder_default]
+Compiling architecture design_1_pcadder_0_0_arch of entity xil_defaultlib.design_1_pcadder_0_0 [design_1_pcadder_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_left_two [shift_left_two_default]
+Compiling architecture design_1_shift_left_two_0_0_arch of entity xil_defaultlib.design_1_shift_left_two_0_0 [design_1_shift_left_two_0_0_defa...]
+Compiling architecture design_1_shift_left_two_1_0_arch of entity xil_defaultlib.design_1_shift_left_two_1_0 [design_1_shift_left_two_1_0_defa...]
+Compiling architecture behavioral of entity xil_defaultlib.sign_ext [sign_ext_default]
+Compiling architecture design_1_sign_ext_0_0_arch of entity xil_defaultlib.design_1_sign_ext_0_0 [design_1_sign_ext_0_0_default]
+Compiling module xlslice_v1_0_3.xlslice_v1_0_3_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.design_1_xlslice_0_8
+Compiling architecture structure of entity xil_defaultlib.design_1 [design_1_default]
+Compiling architecture structure of entity xil_defaultlib.design_1_wrapper [design_1_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.lab4_tb
+Built simulation snapshot Lab4_tb_behav

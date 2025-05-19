@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Lab  4.ip_user_files/bd/design_1/ip/design_1_xlslice_0_0/sim/design_1_xlslice_0_0.v" \
+"../../../../Lab  4.ip_user_files/bd/design_1/ip/design_1_xlslice_0_1/sim/design_1_xlslice_0_1.v" \
+"../../../../Lab  4.ip_user_files/bd/design_1/ip/design_1_xlslice_0_2/sim/design_1_xlslice_0_2.v" \
+"../../../../Lab  4.ip_user_files/bd/design_1/ip/design_1_xlslice_0_3/sim/design_1_xlslice_0_3.v" \
+"../../../../Lab  4.ip_user_files/bd/design_1/ip/design_1_xlslice_0_4/sim/design_1_xlslice_0_4.v" \
+"../../../../Lab  4.ip_user_files/bd/design_1/ip/design_1_xlslice_0_5/sim/design_1_xlslice_0_5.v" \
+"../../../../Lab  4.ip_user_files/bd/design_1/ip/design_1_xlslice_0_6/sim/design_1_xlslice_0_6.v" \
+"../../../../Lab  4.ip_user_files/bd/design_1/ip/design_1_xlslice_0_7/sim/design_1_xlslice_0_7.v" \
+"../../../../Lab  4.ip_user_files/bd/design_1/ip/design_1_xlslice_0_8/sim/design_1_xlslice_0_8.v" \
+"../../../../Lab  4.ip_user_files/bd/design_1/ip/design_1_xlslice_0_9/sim/design_1_xlslice_0_9.v" \
+"../../../../Lab  4.ip_user_files/bd/design_1/ip/design_1_xlconcat_0_0/sim/design_1_xlconcat_0_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

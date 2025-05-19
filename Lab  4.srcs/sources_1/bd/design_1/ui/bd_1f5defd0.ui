@@ -1,0 +1,98 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.554519",
+   "Default View_TopLeft":"160,-945",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -60 -y -90 -defaultsOSRD
+preplace port port-id_rst -pg 1 -lvl 0 -x -60 -y -60 -defaultsOSRD
+preplace port port-id_en -pg 1 -lvl 0 -x -60 -y -30 -defaultsOSRD
+preplace port port-id_Carryout -pg 1 -lvl 10 -x 3460 -y -40 -defaultsOSRD
+preplace port port-id_Overflow -pg 1 -lvl 10 -x 3460 -y -70 -defaultsOSRD
+preplace port port-id_Zero -pg 1 -lvl 10 -x 3460 -y -100 -defaultsOSRD
+preplace portBus ALUout -pg 1 -lvl 10 -x 3460 -y -10 -defaultsOSRD
+preplace portBus PCOut -pg 1 -lvl 10 -x 3460 -y 110 -defaultsOSRD
+preplace portBus Dout -pg 1 -lvl 10 -x 3460 -y 70 -defaultsOSRD
+preplace inst pc_0 -pg 1 -lvl 1 -x 420 -y -50 -defaultsOSRD
+preplace inst pcadder_0 -pg 1 -lvl 2 -x 740 -y -200 -defaultsOSRD
+preplace inst instmem_0 -pg 1 -lvl 2 -x 740 -y -50 -defaultsOSRD
+preplace inst Opcode -pg 1 -lvl 3 -x 1070 -y -300 -defaultsOSRD
+preplace inst Rs -pg 1 -lvl 3 -x 1070 -y -200 -defaultsOSRD
+preplace inst Rt -pg 1 -lvl 3 -x 1070 -y -100 -defaultsOSRD
+preplace inst Rd -pg 1 -lvl 3 -x 1070 -y 0 -defaultsOSRD
+preplace inst Shamt -pg 1 -lvl 3 -x 1070 -y 100 -defaultsOSRD
+preplace inst Immediate -pg 1 -lvl 3 -x 1070 -y 200 -defaultsOSRD
+preplace inst Funct -pg 1 -lvl 3 -x 1070 -y 300 -defaultsOSRD
+preplace inst sign_ext_0 -pg 1 -lvl 4 -x 1370 -y 200 -defaultsOSRD
+preplace inst RegDstMux_0 -pg 1 -lvl 4 -x 1370 -y -80 -defaultsOSRD
+preplace inst RegFile_0 -pg 1 -lvl 5 -x 1730 -y -70 -defaultsOSRD
+preplace inst control_0 -pg 1 -lvl 5 -x 1730 -y -300 -defaultsOSRD
+preplace inst ALUSrcMux_0 -pg 1 -lvl 6 -x 2110 -y -80 -defaultsOSRD
+preplace inst alu_control_0 -pg 1 -lvl 6 -x 2110 -y 150 -defaultsOSRD
+preplace inst alu_0 -pg 1 -lvl 7 -x 2480 -y -30 -defaultsOSRD
+preplace inst PCOut -pg 1 -lvl 2 -x 740 -y 100 -defaultsOSRD
+preplace inst DataMem_0 -pg 1 -lvl 8 -x 2870 -y 70 -defaultsOSRD
+preplace inst WriteBackMux_0 -pg 1 -lvl 9 -x 3240 -y 70 -defaultsOSRD
+preplace inst branch_logic_0 -pg 1 -lvl 8 -x 2870 -y -220 -defaultsOSRD
+preplace inst shift_left_two_0 -pg 1 -lvl 6 -x 2110 -y -360 -defaultsOSRD
+preplace inst branch_adder_0 -pg 1 -lvl 7 -x 2480 -y -220 -defaultsOSRD
+preplace inst BranchMux_0 -pg 1 -lvl 9 -x 3240 -y -350 -defaultsOSRD
+preplace inst shift_left_two_1 -pg 1 -lvl 3 -x 1070 -y -410 -defaultsOSRD
+preplace inst sl2 -pg 1 -lvl 4 -x 1370 -y -520 -defaultsOSRD
+preplace inst pcAdder -pg 1 -lvl 4 -x 1370 -y -410 -defaultsOSRD
+preplace inst jumpLogic_0 -pg 1 -lvl 4 -x 1370 -y -240 -defaultsOSRD
+preplace inst Address -pg 1 -lvl 5 -x 1730 -y -510 -defaultsOSRD
+preplace inst jumpOutMux_0 -pg 1 -lvl 7 -x 2480 -y -490 -defaultsOSRD
+preplace inst jmpSrcMux_0 -pg 1 -lvl 6 -x 2110 -y -510 -defaultsOSRD
+preplace netloc ALUSrcMux_0_B 1 6 1 2260 -80n
+preplace netloc Address_dout 1 5 1 N -510
+preplace netloc BranchMux_0_NextAddr_out 1 6 4 2320J -350 NJ -350 3020J -270 3410
+preplace netloc DataMem_0_ReadData 1 8 1 3070 60n
+preplace netloc Funct_Dout 1 3 3 1220J 140 NJ 140 N
+preplace netloc Immediate_Dout 1 3 1 N 200
+preplace netloc Opcode_Dout 1 3 2 1210 -310 1570J
+preplace netloc PCOut_Dout 1 2 8 890J 360 1230J 60 NJ 60 NJ 60 NJ 60 2690 -70 N -70 3420
+preplace netloc Rd_Dout 1 3 1 1230 -80n
+preplace netloc RegDstMux_0_WriteReg 1 4 1 1500 -80n
+preplace netloc RegFile_0_read_data1 1 5 2 1910J 0 2290
+preplace netloc RegFile_0_read_data2 1 5 3 1930 50 2300 80 N
+preplace netloc Rs_Dout 1 3 2 1200J -170 1520
+preplace netloc Rt_Dout 1 3 2 1240 -160 1510
+preplace netloc Shamt_Dout 1 3 4 NJ 100 NJ 100 1960J 40 2310
+preplace netloc WriteBackMux_0_Dout 1 4 6 1580 70 N 70 N 70 2650 180 N 180 3430
+preplace netloc alu_0_ALUout 1 7 3 2720J -50 3030 -20 3410
+preplace netloc alu_0_Carryout 1 7 3 2700 -40 N -40 N
+preplace netloc alu_0_Overflow 1 7 3 2680 -60 N -60 3430
+preplace netloc alu_0_Zero 1 7 3 2650 -100 N -100 N
+preplace netloc alu_control_0_ALUCntl 1 6 1 2320 0n
+preplace netloc branch_adder_0_BranchTarget 1 7 2 2650 -370 N
+preplace netloc branch_logic_0_Branch_out 1 8 1 3050 -330n
+preplace netloc clk_1 1 0 8 260 -580 N -580 N -580 N -580 1550 -610 N -610 N -610 2710
+preplace netloc control_0_ALUOp 1 5 1 1920 -350n
+preplace netloc control_0_ALUSrc 1 5 1 1940 -330n
+preplace netloc control_0_Branch 1 5 3 1960J -280 2290J -290 2690
+preplace netloc control_0_MemRead 1 5 3 NJ -270 2280J -310 2670
+preplace netloc control_0_MemWrite 1 5 3 NJ -250 2300J -300 2660
+preplace netloc control_0_MemtoReg 1 5 4 NJ -290 2260J -330 NJ -330 3040
+preplace netloc control_0_RegDst 1 3 3 1240 50 NJ 50 1880
+preplace netloc control_0_RegWrite 1 4 2 1580 -430 1890
+preplace netloc en_1 1 0 8 260 40 N 40 900 370 1240 90 1560 80 N 80 2260 90 2710
+preplace netloc instmem_0_inst_out 1 2 1 940 -410n
+preplace netloc jmpSrcMux_0_JumpTarget 1 6 1 2310 -510n
+preplace netloc jumpLogic_0_JumpOut 1 4 3 1510 -590 NJ -590 2320
+preplace netloc jumpLogic_0_JumpSrc 1 4 2 1560 -580 1950J
+preplace netloc jumpOutMux_0_nextAddr 1 0 8 270 380 NJ 380 NJ 380 NJ 380 NJ 380 NJ 380 N 380 2640
+preplace netloc pcAdder_Dout 1 4 1 1570 -500n
+preplace netloc pc_0_CurrAddr 1 1 1 590 -200n
+preplace netloc pcadder_0_NextAddr 1 2 7 890J -470 1220J -600 NJ -600 1960J -300 2270 -320 N -320 3060
+preplace netloc rst_1 1 0 1 N -60
+preplace netloc shift_left_two_0_sl2 1 6 1 2310 -360n
+preplace netloc shift_left_two_1_sl2 1 3 1 1200 -520n
+preplace netloc sign_ext_0_ext_imm 1 4 2 1580 90 1950
+preplace netloc sl2_Dout 1 4 1 N -520
+levelinfo -pg 1 -60 420 740 1070 1370 1730 2110 2480 2870 3240 3460
+pagesize -pg 1 -db -bbox -sgen -130 -620 3600 460
+"
+}
+0
